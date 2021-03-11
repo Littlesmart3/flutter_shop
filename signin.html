@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <span>BootCamp - 用户管理系统</span>
+        </div>
+        <nav></nav>
+        <div class="sign">
+            <ul>
+                <li><a href="">登录</a></li>
+                <li><a href="">注册</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="sign-section">
+            <div class="sign-tab">
+                <a>登录</a>
+                <a>注册</a>
+            </div>
+            <div class="sign-main">
+                <form action="">
+
+                    <div class="form-group1">
+                        <label for="sign_username">用户名</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group1">
+                        <label for="sign_password">密码</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group1">
+                        <label for="sign_confirm">确认密码</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group1">
+                        <label for="sign_email">电子邮箱</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group1">
+                        <label for="sign_age">年龄</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group2">
+                        <label for="sign_professional">职业</label>
+                        <div class="sign_professional">
+                            <label for="professional_student"><input type="radio" name="professional" value="学生" checked="checked">学生</label>
+                            <label for="professional_worker"><input type="radio" name="professional" value="上班族">上班族</label>
+                        </div>
+                    </div>
+                    <div class="form-group3">
+                        <button>登录</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
